@@ -194,8 +194,8 @@ def user_stats(df):
         max_dob = df['Birth Year'].max()
         common_dob = df['Birth Year'].mode()[0]
 
-        print(f'Youngest riders were born in {int(min_dob)}.\n'
-        f'Oldest riders were born in {int(max_dob)}.\n'
+        print(f'Youngest riders were born in {int(max_dob)}.\n'
+        f'Oldest riders were born in {int(min_dob)}.\n'
         f'The most common birth year was {int(common_dob)}.')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
