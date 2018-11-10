@@ -5,7 +5,8 @@
 Using Python to explore bikeshare data
 
 ### Description
-Describe what your project is about and what it does
+Python >= v3.6 required
+This is an interactive tool for exploring statistics of bikeshare usage. Bikeshare data was provided by [Motivate](https://www.motivateco.com/), a bike share system provider for many major cities in the United States.
 
 ### Files used
 Include the files used
