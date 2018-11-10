@@ -2,7 +2,7 @@
 2018-11-10
 
 ### Project Title
-Using Python to explore bikeshare data
+Using Python to Explore Bikeshare Data
 
 ### Description
 Python >= v3.6 required
