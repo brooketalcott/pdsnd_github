@@ -101,7 +101,9 @@ def load_data(city, month, day):
 
 
 def print_pop_stats(df,options):
-    """displays the statistics about the most popular option passed to function"""
+    """displays the statistics about the most popular option passed to
+    the function"""
+    
     def popular(option):
         return df[option].mode()[0]
 
