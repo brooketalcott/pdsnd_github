@@ -101,8 +101,15 @@ def load_data(city, month, day):
 
 
 def print_pop_stats(df,options):
-    """displays the statistics about the most popular option passed to
-    the function"""
+    """
+    Prints the statistics about the most popular option in the data DataFrame
+    passed to the function
+
+    Args:
+        (df) Pandas DataFrame
+        (options) Dictionary with value to find in df and the readable text to
+                  print
+    """
 
     def popular(option):
         return df[option].mode()[0]
