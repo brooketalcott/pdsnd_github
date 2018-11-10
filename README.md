@@ -16,7 +16,7 @@ This is an interactive tool for exploring statistics of bikeshare usage. Bikesha
 - washington.csv
 
 ### Credits
-Thanks to Kevin for [this](https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response) through answer on user prompts and validation.
+Thanks to Kevin for [this](https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response) thorough answer on user prompts and validation.
 
 I also really appreciated [this](https://matthew-brett.github.io/teaching/string_formatting.html) blog post from matthew-brett on different methods to insert variables into strings in Python. I missed template string literals from JavaScript and was super happy to know there is now a similar option in Python.
 
