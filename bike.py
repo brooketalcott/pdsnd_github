@@ -12,8 +12,8 @@ def get_filters():
 
     Returns:
         (str) city - name of the city to analyze
-        (str) month - name of the month to filter by, or "all" to apply no month filter
-        (str) day - name of the day of week to filter by, or "all" to apply no day filter
+        (str) month - name of the month to filter by, or "all"
+        (str) day - name of the day of week to filter by, or "all"
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     def prompt_user(prompt,validate):
@@ -64,8 +64,8 @@ def load_data(city, month, day):
 
     Args:
         (str) city - name of the city to analyze
-        (str) month - name of the month to filter by, or "all" to apply no month filter
-        (str) day - name of the day of week to filter by, or "all" to apply no day filter
+        (str) month - name of the month to filter by, or "all"
+        (str) day - name of the day of week to filter by, or "all"
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
@@ -101,7 +101,16 @@ def load_data(city, month, day):
 
 
 def print_pop_stats(df,options):
-    """displays the statistics about the most popular option passed to function"""
+    """
+    Prints the statistics about the most popular option in the data DataFrame
+    passed to the function
+
+    Args:
+        (df) Pandas DataFrame
+        (options) Dictionary with value to find in df and the readable text to
+                  print
+    """
+
     def popular(option):
         return df[option].mode()[0]
 
